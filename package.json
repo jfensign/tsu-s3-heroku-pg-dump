@@ -1,0 +1,20 @@
+{
+  "name": "s3_pg_dump",
+  "version": "1.0.0",
+  "description": "Moves pgbackups from Heroku to S3.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js",
+    "start": "node ./target/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  	"aws-sdk": "latest",
+  	"s3-streaming-upload": "latest",
+  	"request": "latest",
+  	"q": "latest",
+  	"s3-upload-stream": "latest",
+    "underscore": "latest"
+  }
+}
