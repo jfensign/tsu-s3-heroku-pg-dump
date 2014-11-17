@@ -47,4 +47,4 @@ PgBackups = ->
 
 	return
 
-module.exports = new PgBackups()
+module.exports = new PgBackups

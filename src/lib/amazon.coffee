@@ -52,4 +52,4 @@ Amazon = ->
 
 	return
 
-module.exports = new Amazon()
+module.exports = new Amazon
