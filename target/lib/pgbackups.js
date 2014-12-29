@@ -19,7 +19,8 @@
         return capture_list.push(chunk);
       });
       list.stderr.on('data', function(e) {
-        uri.stderr.pipe(process.stderr);
+        //uri.stderr.pipe(process.stderr);
+        console.error(e)
         return deferred.reject(e);
       });
       list.stderr.on('close', function() {
